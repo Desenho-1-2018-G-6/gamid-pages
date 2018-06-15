@@ -14,6 +14,9 @@ import BaseObject from './graphics/baseobject/BaseObject';
 import Square from './graphics/square/Square';
 import Objects from './graphics/objects/Objects';
 import CollidableObjects from './graphics/collidableObjects/CollidableObjects';
+import Controller from './controller/Controller';
+import ControllerClass from './controller/controllerClass/ControllerClass';
+import Keyboard from './controller/keyboard/Keyboard';
 
 class App extends Component {
   render() {
@@ -21,14 +24,20 @@ class App extends Component {
       <Router>
         <div className='main'>
           <Header />
+          <Route exact path="/gamid-pages/" component={Home} />
           <Route path="/gamid-pages/gamid" component={Gamid} />
+
           <Route path="/gamid-pages/graphics" component={Graphics} />
           <Route path="/gamid-pages/canvas" component={Canvas} />
           <Route path="/gamid-pages/baseobject" component={BaseObject} />
           <Route path="/gamid-pages/square" component={Square} />
           <Route path="/gamid-pages/objects" component={Objects} />
           <Route path="/gamid-pages/collidableObjects" component={CollidableObjects} />
-          <Route exact path="/gamid-pages/" component={Home} />
+
+          <Route path="/gamid-pages/controller" component={Controller} />
+          <Route path="/gamid-pages/controllerClass" component={ControllerClass} />
+          <Route path="/gamid-pages/keyboard" component={Keyboard} />
+          
         </div>
       </Router>
     );

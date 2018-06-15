@@ -7,6 +7,9 @@ export const content =
 `
 BaseObject é a classe abstrata responsável por realizar a heranças
 de classes concretas que podem ser instanciadas e inseridas em um Canvas.
+ Também é possível criar uma classe concreta em cima de base Object. Para tal, 
+ extenda de gamid.graphics.BaseObject, e defina as duas funções obrigatórias: 
+ newPosition(dt) e update().
 `
 
 export const attributeList = [
