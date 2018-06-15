@@ -17,6 +17,7 @@ import CollidableObjects from './graphics/collidableObjects/CollidableObjects';
 import Controller from './controller/Controller';
 import ControllerClass from './controller/controllerClass/ControllerClass';
 import Keyboard from './controller/keyboard/Keyboard';
+import Time from './time/Time';
 
 class App extends Component {
   render() {
@@ -38,6 +39,8 @@ class App extends Component {
           <Route path="/gamid-pages/controllerClass" component={ControllerClass} />
           <Route path="/gamid-pages/keyboard" component={Keyboard} />
           
+          <Route path="/gamid-pages/time" component={Time} />
+
         </div>
       </Router>
     );
