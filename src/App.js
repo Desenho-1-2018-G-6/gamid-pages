@@ -17,10 +17,10 @@ class App extends Component {
       <Router>
         <div className='main'>
           <Header />
-          <Route path="/gamid" component={Gamid} />
-          <Route path="/graphics" component={Graphics} />
-          <Route path="/canvas" component={Canvas} />
-          <Route exact path="/" component={Home} />
+          <Route path="/gamid-pages/gamid" component={Gamid} />
+          <Route path="/gamid-pages/graphics" component={Graphics} />
+          <Route path="/gamid-pages/canvas" component={Canvas} />
+          <Route exact path="/gamid-pages/" component={Home} />
         </div>
       </Router>
     );

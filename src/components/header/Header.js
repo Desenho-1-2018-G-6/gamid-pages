@@ -11,13 +11,13 @@ class Header extends Component {
     render() {
         return (
             <div className="main-header">
-                <Link to="/"><img src={Logo} className="logo" alt='gamid logo'/></Link>
+                <Link to="/gamid-pages"><img src={Logo} className="logo" alt='gamid logo'/></Link>
                 <ul className="list">
-                    <li><Link to="/gamid">GAMID</Link></li>
-                    <li><Link to="/graphics">GRAPHICS</Link></li>
-                    <li><Link to="/controller">CONTROLLER</Link></li>
-                    <li><Link to="/physics">PHYSICS</Link></li>
-                    <li><Link to="/time">TIME</Link></li>
+                    <li><Link to="/gamid-pages/gamid">GAMID</Link></li>
+                    <li><Link to="/gamid-pages/graphics">GRAPHICS</Link></li>
+                    <li><Link to="/gamid-pages/controller">CONTROLLER</Link></li>
+                    <li><Link to="/gamid-pages/physics">PHYSICS</Link></li>
+                    <li><Link to="/gamid-pages/time">TIME</Link></li>
                 </ul>
             </div>
         );

@@ -1,9 +1,9 @@
 export const title = "Gamid"
 export const links = [
-    { title: "Graphics", link: "/graphics" },
-    { title: "Controller", link: "/controller"},
-    { title: "Physics", link: "/physics"},
-    { title: "Time", link: "/time"}
+    { title: "Graphics", link: "/gamid-pages/graphics" },
+    { title: "Controller", link: "/gamid-pages/controller"},
+    { title: "Physics", link: "/gamid-pages/physics"},
+    { title: "Time", link: "/gamid-pages/time"}
     ]
 
 export const content = 

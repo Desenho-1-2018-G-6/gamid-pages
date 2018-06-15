@@ -1,6 +1,6 @@
 export const title = "Graphics"
 export const links = [
-                    {title:"Canvas", link:"/canvas"}
+                    {title:"Canvas", link:"/gamid-pages/canvas"}
                     ]
 
 export const content = 
