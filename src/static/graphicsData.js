@@ -2,7 +2,9 @@ export const title = "Graphics"
 export const links = [
                     {title:"Canvas", link:"/gamid-pages/canvas"},
                     {title: "BaseObject", link:"/gamid-pages/baseobject"},
-                    {title: "Square", link:"/gamid-pages/square"}
+                    {title: "Square", link:"/gamid-pages/square"},
+                    {title: "objects", link:"/gamid-pages/objects"},
+                    {title: "collidableObjects", link:"/gamid-pages/collidableObjects"}
                     ]
 
 export const content = 

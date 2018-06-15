@@ -12,6 +12,8 @@ import Canvas from './graphics/canvas/Canvas.js';
 import Header from './components/header/Header.js';
 import BaseObject from './graphics/baseobject/BaseObject';
 import Square from './graphics/square/Square';
+import Objects from './graphics/objects/Objects';
+import CollidableObjects from './graphics/collidableObjects/CollidableObjects';
 
 class App extends Component {
   render() {
@@ -24,6 +26,8 @@ class App extends Component {
           <Route path="/gamid-pages/canvas" component={Canvas} />
           <Route path="/gamid-pages/baseobject" component={BaseObject} />
           <Route path="/gamid-pages/square" component={Square} />
+          <Route path="/gamid-pages/objects" component={Objects} />
+          <Route path="/gamid-pages/collidableObjects" component={CollidableObjects} />
           <Route exact path="/gamid-pages/" component={Home} />
         </div>
       </Router>
