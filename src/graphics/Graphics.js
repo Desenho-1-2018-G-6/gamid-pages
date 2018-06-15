@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Sidebar from '../components/sidebar/Sidebar.js';
 import Content from '../components/content/Content.js';
-import {title, links, content} from '../static/gamidData.js';
 
-class Gamid extends Component {
+import { title, links, content } from '../static/graphicsData.js';
+
+class Graphics extends Component {
     render() {
         return (
             <div>
+                {console.log(content)}
                 <div>
-                    
                     <Sidebar title={title} links={links} />
                 </div>
                 <div>
@@ -19,4 +20,4 @@ class Gamid extends Component {
     }
 }
 
-export default Gamid;
+export default Graphics;

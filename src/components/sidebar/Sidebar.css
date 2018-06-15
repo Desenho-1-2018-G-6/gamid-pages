@@ -1,0 +1,32 @@
+.main-sidebar {
+    padding-top: 20px;
+    width: 200px;
+    height: 86vh;
+    position: absolute;
+    left: 0;
+    border-right-color: #0096D2;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-title {
+    color: #0096D2;
+    margin: 0;
+}
+
+.sidebar-list {
+    color: #0096D2;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 40%;
+    justify-content: space-around;
+}
+
+.sidebar-list > li {
+    list-style-type: none;
+}

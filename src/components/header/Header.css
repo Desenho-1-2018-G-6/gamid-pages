@@ -1,18 +1,36 @@
-.main-container {
-    height: 80px;
+.main-header {
+    height: 13vh;
     width: 100vw;
     background-color: white;
     display: flex;
+    border-bottom-color: #0096D2;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 .logo {
     height: 80px;
+    margin-left: 3vw;
 }
 
 .list {
+    margin-left: 5vw;
     display: flex;
     width: 100%;
+    max-width: 70vw;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+    color: #0096D2;
+    padding: 0; 
+}
+
+.list > li{
+     
+}
+
+.list > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 20px;
 }
