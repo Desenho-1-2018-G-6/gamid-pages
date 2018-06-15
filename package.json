@@ -10,7 +10,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "http://Desenho-1-2018-G-6.github.io/gamid-pages",
+  "homepage": "http://Desenho-1-2018-G-6.github.io/gamid-pages/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
