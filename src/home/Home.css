@@ -1,0 +1,15 @@
+.gamid-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamid-title {
+    color: #0096D2;
+}
+
+.gamid-content {
+    width: 60%;
+    color: #0096D2;
+}
