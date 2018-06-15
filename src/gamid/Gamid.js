@@ -8,7 +8,6 @@ class Gamid extends Component {
         return (
             <div>
                 <div>
-                    
                     <Sidebar title={title} links={links} />
                 </div>
                 <div>

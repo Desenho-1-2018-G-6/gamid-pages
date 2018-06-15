@@ -8,6 +8,7 @@ import {
 import Home from './home/Home.js';
 import Gamid from './gamid/Gamid.js';
 import Graphics from './graphics/Graphics.js';
+import Canvas from './graphics/canvas/Canvas.js';
 import Header from './components/header/Header.js';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           <Header />
           <Route path="/gamid" component={Gamid} />
           <Route path="/graphics" component={Graphics} />
+          <Route path="/canvas" component={Canvas} />
           <Route exact path="/" component={Home} />
         </div>
       </Router>

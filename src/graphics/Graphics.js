@@ -8,7 +8,6 @@ class Graphics extends Component {
     render() {
         return (
             <div>
-                {console.log(content)}
                 <div>
                     <Sidebar title={title} links={links} />
                 </div>
