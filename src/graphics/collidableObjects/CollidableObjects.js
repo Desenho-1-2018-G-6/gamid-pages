@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from '../../components/sidebar/Sidebar.js';
 import Content from '../../components/content/Content.js';
 
-import { title, links, content } from '../../static/collidableObjectsData.js';
+import { title, links, content, example } from '../../static/collidableObjectsData.js';
 
 class CollidableObjects extends Component {
     render() {
@@ -12,7 +12,7 @@ class CollidableObjects extends Component {
                     <Sidebar title={title} links={links} />
                 </div>
                 <div>
-                    <Content title={title} main={content} />
+                    <Content title={title} main={content} example={example}/>
                 </div>
             </div>
         );
