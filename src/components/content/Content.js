@@ -29,7 +29,7 @@ class Content extends Component {
             <div className="main-content">
                 <h1 className="main-title">{this.props.title}</h1>
                 <p className="text-content">{this.props.main}</p>
-                <ul>
+                <ul className="text-content">
                     {this.state.attrList.map((attr) => {
                         return (<li className="list-content" key={attr.attr}>{attr.attr} - {attr.description}</li>)
                     })}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from '../components/sidebar/Sidebar.js';
 import Content from '../components/content/Content.js';
 
-import { title, links, content } from '../static/audioData.js';
+import { title, links, content, example, attributeList } from '../static/audioData.js';
 
 class Audio extends Component {
     render() {
@@ -12,7 +12,7 @@ class Audio extends Component {
                     <Sidebar title={title} links={links} />
                 </div>
                 <div>
-                    <Content title={title} main={content} />
+                    <Content title={title} main={content} attrList={attributeList} example={example}/>
                 </div>
             </div>
         );
