@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from '../../components/sidebar/Sidebar.js';
 import Content from '../../components/content/Content.js';
 
-import { title, links, content, attributeList } from '../../static/canvasData.js';
+import { title, links, content, attributeList, example } from '../../static/canvasData.js';
 
 class Canvas extends Component {
     render() {
@@ -12,7 +12,7 @@ class Canvas extends Component {
                     <Sidebar title={title} links={links} />
                 </div>
                 <div>
-                    <Content title={title} main={content} attrList={attributeList} />
+                    <Content title={title} main={content} attrList={attributeList} example={example}/>
                 </div>
             </div>
         );

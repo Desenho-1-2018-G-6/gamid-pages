@@ -21,3 +21,9 @@ export const attributeList = [
     {attr: "addObject(baseObject)", description: "Adiciona um objeto base ao canvas"},
     {attr: "setBackgroundColor(color)", description: "modifica a cor de fundo do canvas"} 
 ]
+
+export const example = 
+`
+let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple');
+let canvas = canvasInstance.element; //get <canvas> html attribute
+`
