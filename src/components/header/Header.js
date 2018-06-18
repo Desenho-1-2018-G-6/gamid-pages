@@ -19,6 +19,7 @@ class Header extends Component {
                     <li><Link to="/gamid-pages/physics">PHYSICS</Link></li>
                     <li><Link to="/gamid-pages/audio">AUDIO</Link></li>
                     <li><Link to="/gamid-pages/time">TIME</Link></li>
+                    <li><Link to="/gamid-pages/examples">EXEMPLOS</Link></li>
                 </ul>
             </div>
         );

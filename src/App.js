@@ -26,6 +26,10 @@ import BeforeBorderCollision from './physics/BeforeBorderCollision';
 import BeforeCollision from './physics/BeforeCollision';
 import HasBorderCollision from './physics/HasBorderCollision';
 import HasCollision from './physics/HasCollision';
+import Examples from './examples/Examples';
+import ReverseSnake from './examples/ReverseSnake';
+import Blizzard from './examples/Blizzard';
+import Random from './examples/Random';
 
 class App extends Component {
   render() {
@@ -58,6 +62,11 @@ class App extends Component {
           <Route path="/gamid-pages/audio" component={Audio} />
           
           <Route path="/gamid-pages/time" component={Time} />
+
+          <Route path="/gamid-pages/examples" component={Examples}/>
+          <Route path="/gamid-pages/reverse-snake" component={ReverseSnake}/>
+          <Route path="/gamid-pages/blizzard" component={Blizzard}/>
+          <Route path="/gamid-pages/random" component={Random}/>
 
         </div>
       </Router>

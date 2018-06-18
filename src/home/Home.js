@@ -7,7 +7,7 @@ class Home extends Component {
         document.getElementById("game").innerHTML=
         `<object 
             type="text/html"
-            data="test/index.html"
+            data="/test/index.html"
             style="width:900px;height:900px;"
             ></object>`
     }
