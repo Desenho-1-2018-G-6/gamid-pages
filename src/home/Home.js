@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
-import {
-    Link
-} from 'react-router-dom';
 
 import './Home.css';
 
 class Home extends Component {
+    load_game(){
+        document.getElementById("game").innerHTML=
+        `<object 
+            type="text/html"
+            data="test/index.html"
+            style="width:900px;height:900px;"
+            ></object>`
+    }
+
+    componentDidMount(props){
+        this.load_game();
+    }
     render() {
         return (
             <div className="gamid-main">
@@ -15,7 +24,10 @@ class Home extends Component {
                     Graphics, Time, Controller, Physics e Audio é possível construir
                     aplicações que utilizam de um canvas HTML numa velocidade impressionante.
                 </p>
+                <div id="game">
+                </div>
             </div>
+            
         );
     }
 }
