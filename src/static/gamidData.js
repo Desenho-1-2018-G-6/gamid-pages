@@ -3,6 +3,7 @@ export const links = [
     { title: "Graphics", link: "/gamid-pages/graphics" },
     { title: "Controller", link: "/gamid-pages/controller"},
     { title: "Physics", link: "/gamid-pages/physics"},
+    { title: "Audio", link: "/gamid-pages/audio"},    
     { title: "Time", link: "/gamid-pages/time"}
     ]
 

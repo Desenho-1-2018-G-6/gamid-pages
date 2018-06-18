@@ -10,6 +10,8 @@ export const links = [
 
 export const content = 
 `
-todo
+Physics é a biblioteca responsável por atribuir físicas à objetos, além de eventos, 
+que são desencadeados de acordo com algumas colisões ocorrentes entre esses objetos. Ao lado, 
+podemos entender melhor a lógica e as funcionalidades oferecidas pela biblioteca Physics. 
 
 `
