@@ -18,3 +18,14 @@ export const attributeList = [
     {attr: "color", description: "Largura do objeto instanciado"}
      
 ]
+
+export const example = 
+`
+//creates canvas
+let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple'); 
+
+//creates baseObject - square
+let square = new gamid.graphics.Square(50, 50, 0, 0, 50, 'blue'); 
+// inserts square on canvas
+canvasInstance.addObject(square); 
+`
