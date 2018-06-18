@@ -5,11 +5,23 @@ export const links = [
 
 export const content = 
 `
-Canvas é a classe responsável pela instanciação do canvas.
-Dentro dele, temos uma série de atributos:
+Essa função é ativada após um dado objeto colidir com outro objeto colidível,
+ ou seja, outro objeto com físicas atribuídas. É ativado apenas quando hasCollision
+está setado como true.
 `
 
 export const example = 
 `
-//todo
+let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple');
+let canvas = canvasInstance.element;
+let square = new gamid.graphics.Square(50, 50, 0, 0, 50, 'blue');
+let squarecollision = new gamid.physics.SquareCollision(square);
+squarecollision.hasCollision = true; // já é true como padrão!
+// como parâmetro padrão, essa função recebe o próprio objeto
+// atribuido à squarecollision, além do objeto em que ele colidiu
+squarecollision.afterCollision = function(mainObject, collidedObject){
+    //torna o objeto rosa ao encostar em outro objeto
+    mainObject.color = "pink"; 
+}
+
 `
