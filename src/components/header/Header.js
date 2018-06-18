@@ -17,6 +17,7 @@ class Header extends Component {
                     <li><Link to="/gamid-pages/graphics">GRAPHICS</Link></li>
                     <li><Link to="/gamid-pages/controller">CONTROLLER</Link></li>
                     <li><Link to="/gamid-pages/physics">PHYSICS</Link></li>
+                    <li><Link to="/gamid-pages/audio">AUDIO</Link></li>
                     <li><Link to="/gamid-pages/time">TIME</Link></li>
                 </ul>
             </div>

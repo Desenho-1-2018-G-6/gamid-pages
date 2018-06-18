@@ -4,7 +4,6 @@ import {
 } from 'react-router-dom';
 
 import './Home.css';
-var Markdown = require('react-remarkable');
 
 class Home extends Component {
     render() {
@@ -16,7 +15,6 @@ class Home extends Component {
                     Graphics, Time, Controller, Physics e Audio é possível construir
                     aplicações que utilizam de um canvas HTML numa velocidade impressionante.
                 </p>
-                <Markdown source="**oi**" />
             </div>
         );
     }

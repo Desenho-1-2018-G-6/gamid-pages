@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import Highlight from 'react-highlight'
 
 import './Content.css';
-
-var ReactMarkdown = require('react-markdown');
 
 class Content extends Component {
     constructor(props) {
@@ -19,7 +18,7 @@ class Content extends Component {
             return (
                 <div>
                     <h2 className="main-title">Exemplos:</h2>
-                    <pre><code className="javascript">{this.state.example}</code></pre>
+                    <Highlight className="javascript">{this.state.example}</Highlight>
                 </div>
             )
         }

@@ -18,6 +18,14 @@ import Controller from './controller/Controller';
 import ControllerClass from './controller/controllerClass/ControllerClass';
 import Keyboard from './controller/keyboard/Keyboard';
 import Time from './time/Time';
+import Audio from './audio/Audio.js';
+import Physics from './physics/Physics.js';
+import AfterBorderCollision from './physics/AfterBorderCollision';
+import AfterCollision from './physics/AfterCollision';
+import BeforeBorderCollision from './physics/BeforeBorderCollision';
+import BeforeCollision from './physics/BeforeCollision';
+import HasBorderCollision from './physics/HasBorderCollision';
+import HasCollision from './physics/HasCollision';
 
 class App extends Component {
   render() {
@@ -38,6 +46,16 @@ class App extends Component {
           <Route path="/gamid-pages/controller" component={Controller} />
           <Route path="/gamid-pages/controllerClass" component={ControllerClass} />
           <Route path="/gamid-pages/keyboard" component={Keyboard} />
+
+          <Route path="/gamid-pages/physics" component={Physics} />
+          <Route path="/gamid-pages/afterBorderCollision" component={AfterBorderCollision} />
+          <Route path="/gamid-pages/afterCollision" component={AfterCollision} />
+          <Route path="/gamid-pages/beforeBorderCollision" component={BeforeBorderCollision} />
+          <Route path="/gamid-pages/beforeCollision" component={BeforeCollision} />
+          <Route path="/gamid-pages/hasBorderCollision" component={HasBorderCollision} />
+          <Route path="/gamid-pages/hasCollision" component={HasCollision} />
+
+          <Route path="/gamid-pages/audio" component={Audio} />
           
           <Route path="/gamid-pages/time" component={Time} />
 
