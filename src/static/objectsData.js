@@ -12,19 +12,19 @@ pela biblioteca Time, para que os mesmos sejam locomovidos.
 export const example =
 `
 let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple');
-let canvas = canvasInstance.element; //get <canvas> html attribute
+let canvas = canvasInstance.element;
 
-// Creates an object of the square type with is respectives attributes.
-// Width, height, position on the x-axis, position on the y-axis, mass and color, respectively.
+// Cria um objeto do tipo quadrado com seus respectivos atributos.
+// Width, height, posição no eixo X, posição no eixo Y, massa e cor, respectivamente.
 let square = new gamid.graphics.Square(100, 100, 50, 75, 10, 'black');
 
-// Adds the created object in the list that will be used by the time class.
+// Adiciona o objeto criado na lista que será utilizada pela classe Time.
 canvasInstance.addObject(square);
 
-// Returns the log of the objects that were instantiated.
+// Retorna o log dos objetos anteriormente instanciados.
 console.log(gamid.graphics.objects);
 
-// The result of the log will show the quantity of the objects and your respectives attributes:
+// O resultado do log mostrará a quantidade de objetos criados e seus respectivos atributos.
 // v (1) [square]
 // > 0: Square {width: 100, height: 100, x: 50, y: 75, mass: 10 ...}
 `
