@@ -12,27 +12,27 @@ utiliza dessa lista, para verificar colisões e afins.
 
 export const example =
 `
-// Creates an object with some physics
-
 let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple');
 let canvas = canvasInstance.element; //get <canvas> html attribute
 
-// Creates an object of the square type with is respectives attributes.
-// Width, height, position on the x-axis, position on the y-axis, mass and color, respectively.
+// Cria um obejto do tipo quadrado com seus respectivos atributos.
+// Width, height, posição no eixo X, posição no eixo Y, massa e cor, respectivamente.
 let square = new gamid.graphics.Square(100, 100, 50, 75, 10, 'black');
 
-// Adds square collision physics to the created object.
-// This class (SquareCollision) call the method that adds the object
-// to the collidableObjects (graphics.collidableObjects.push()).
+// Adiciona a física de colisão de quadrado para o objeto criado anteriormente.
+// Essa classe (SquareCollision) chama o método que adiciona o objeto
+// na lista collidableObjects (Como: graphics.collidableObjects.push(objeto)).
 let squareCollision = new gamid.physics.SquareCollision(square);
 
-// Adds the created object in the list that will be used by the time class.
+// Adiciona o objeto criado na lista que será utilizada pela classe Time,
+// na qual o renderizará no canvas.
 canvasInstance.addObject(square);
 
-// The time call some methods of the collidableObjects
-// For example: this.graphics.collidableObjects[0].resolveBorderCollision()
-// this method adds the border collision physics to the object.
+// A classe time chama alguns métodos do collidableObjects
+// Por exemplo: this.graphics.collidableObjects[0].resolveBorderCollision()
+// Este método em específico adiciona a colisão de borda (Canvas)
+// com os objetos que possuem física.
 
-// More interactions that you can make with the collidableObjects
-// are described on the physics page.
+// Mais interações que você pode fazer com os collidableObjects
+// estão descritos na página da física.
 `

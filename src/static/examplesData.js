@@ -5,7 +5,7 @@ export const links = [
                     {title:"Random?", link:"/gamid-pages/random"}
                     ]
 
-export const content = 
+export const content =
 `
-Ao lado há alguns exemplos de nosso framework, confira!
+Ao lado há alguns exemplos de utilização do nosso framework, não perca a oportunidade de conferir! 
 `
