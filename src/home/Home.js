@@ -26,6 +26,7 @@ class Home extends Component {
                 </p>
                 <div id="game">
                 </div>
+                <p style={{fontSize: 2}}>gamid>nubank</p>
             </div>
             
         );

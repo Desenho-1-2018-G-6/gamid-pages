@@ -37,6 +37,7 @@ class App extends Component {
       <Router>
         <div className='main'>
           <Header />
+          <Route exact path="/" component={Home} />
           <Route exact path="/gamid-pages/" component={Home} />
           <Route path="/gamid-pages/gamid" component={Gamid} />
 
