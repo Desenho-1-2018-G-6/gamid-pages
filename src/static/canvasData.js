@@ -3,7 +3,7 @@ export const links = [
                     {title:"Retornar", link:"/gamid-pages/graphics"}
                     ]
 
-export const content = 
+export const content =
 `
 Canvas é a classe responsável pela instanciação do canvas.
 Dentro dele, temos uma série de atributos:
@@ -19,11 +19,17 @@ export const attributeList = [
     {attr: "height", description: "Altura do objeto instanciado"},
     {attr: "width", description: "Largura do objeto instanciado"},
     {attr: "addObject(baseObject)", description: "Adiciona um objeto base ao canvas"},
-    {attr: "setBackgroundColor(color)", description: "modifica a cor de fundo do canvas"} 
+    {attr: "setBackgroundColor(color)", description: "modifica a cor de fundo do canvas"}
 ]
 
-export const example = 
+export const example =
 `
+// Cria um novo canvas com suas respectivas dimensões e cor.
 let canvasInstance = new gamid.graphics.Canvas(800, 800, 'purple');
-let canvas = canvasInstance.element; //get <canvas> html attribute
+let canvas = canvasInstance.element;
+
+// Aqui entra o restante do seu código
+
+// Adiciona o canvas ào body do HTML
+document.body.appendChild(canvas);
 `
