@@ -10,7 +10,7 @@ O _framework_ visa facilitar o desenvolvimento de aplicações e jogos 2D feitos
 Para a utilização do _framework_ basta inserir o trecho de código em _HTML_ dentro de seu projeto. Assim, todas as nossas funcionalidades estarão prontas para uso.
 
 ```html
-<script src="https://rawgit.com/Desenho-1-2018-G-6/gamid/master/dist/gamid.js"> </script>
+<script src="https://cdn.jsdelivr.net/gh/Desenho-1-2018-G-6/gamid/dist/gamid.js"> </script>
 
 ```
 
